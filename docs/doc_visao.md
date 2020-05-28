@@ -6,6 +6,7 @@
  ---- | ------ | --------- | -----
 27/05/19 | 1.0 | Abertura do documento | Giovanna
 27/05/19 | 1.1 | Criação da introdução, Posicionamento, Descrição dos envolvidos e Visão Geral | Giovanna
+28/05/19 | 1.2 | Atualização da Visão Geral do Produto | Giovanna
 
 ## Índice
 
@@ -16,6 +17,10 @@
     1. [Alternativas e Concorrência](#3.1)
 4. [Visão Geral do Produto](#4)
     1. [Perspectivas do produto](#4.1)
+    2. [Resumo das Capacidades](#4.2)
+    3. [Suposições de dependências](#4.3)
+    4. [Custo e precificação](#4.4)
+    5. [Licenciamento e Instalação](#4.5)
 
 # Introdução <a name="1"></a>
 Este documento tem como propósito coletar, analisar e definir necessidades e recursos de nível superior do **E a Economia?**, aplicatico de finanças pessoais. Tem como objetivo ajudar pessoas físicas a administrar seu dinheiro.
@@ -49,6 +54,27 @@ Esta seção fornece uma visualização de alto nível das capacidades do **E a 
 
 ## Perspectivas do produto <a name="4.1"></a>
 Nosso produto tem algumas semelhanças com produtos já feitos, como o aplicativo já citados. **E a Economia?** é independente e totalmente auto contido.
+
+## Resumo das Capacidades <a name="4.2"></a>
+Benefício para o Cliente | Recursos de Suporte
+------------------------ | -------------------
+Organiza as finanças do cliente mensalmente | Permite a criação de entradas e saidas periodicas, além de cartões de credito.
+Auxilia no alcance de metas | Através da criação de metas pode-se vizualias o quanto ainda é preciso e quanto tempo irá demorar.
+Auxilia no controle de investimentos | Facilita a vizualição dos investimentos criados e seus provaveis rendimentos 
+Ajuda nas compras | É possivel criar uma compra, com lista de compras, unidades e seus valores.
+
+## Suposições de dependências <a name="4.3"></a>
+
+O **E a Economia?** é um aplicativo que é independente de aplicativos externos e por se tratar de um aplicativo não requer muito do hardware para se obter um bom desempenho.
+
+## Custo e precificação <a name="4.4"></a>
+
+O único gasto previsto será como cadastro no Google Play que custa $25 USD como taxa de registro.
+
+## Licenciamento e Instalação <a name="4.5"></a>
+
+Para licença de software escolhemos a GPL (GNU General Public Licence) - 3.0 .
+
 
 ## Referências <a name="7"></a>
 * Bolso, **Guia Bolso** [<https://www.guiabolso.com.br/>](https://www.guiabolso.com.br/). Acesso em 27 de maio de 2020.
