@@ -7,7 +7,7 @@
 27/05/19 | 1.0 | Abertura do documento | Giovanna
 27/05/19 | 1.1 | Criação da introdução, Posicionamento, Descrição dos envolvidos e Visão Geral | Giovanna
 28/05/19 | 1.2 | Atualização da Visão Geral do Produto | Giovanna
-
+28/05/19 | 1.3 | Criação dos recursos do produto | Giovanna
 ## Índice
 
 1. [Introdução](#1)
@@ -21,7 +21,15 @@
     3. [Suposições de dependências](#4.3)
     4. [Custo e precificação](#4.4)
     5. [Licenciamento e Instalação](#4.5)
-
+5. [Recursos do produto](#5)
+    1. [Cadastro/Login](#5.1)
+    2. [Criar Cartão](#5.2)
+    3. [Adicionar Transações](#5.3)
+    4. [Criar Investimento](#5.4)
+    5. [Criar Meta](#5.5)
+    6. [Criar Label](#5.6)
+    7. [Criar Compras](#5.7)
+        1. [Criar lista de compras](#5.7.1)
 # Introdução <a name="1"></a>
 Este documento tem como propósito coletar, analisar e definir necessidades e recursos de nível superior do **E a Economia?**, aplicatico de finanças pessoais. Tem como objetivo ajudar pessoas físicas a administrar seu dinheiro.
 
@@ -64,17 +72,62 @@ Auxilia no controle de investimentos | Facilita a vizualição dos investimentos
 Ajuda nas compras | É possivel criar uma compra, com lista de compras, unidades e seus valores.
 
 ## Suposições de dependências <a name="4.3"></a>
-
 O **E a Economia?** é um aplicativo que é independente de aplicativos externos e por se tratar de um aplicativo não requer muito do hardware para se obter um bom desempenho.
 
 ## Custo e precificação <a name="4.4"></a>
-
 O único gasto previsto será como cadastro no Google Play que custa $25 USD como taxa de registro.
 
 ## Licenciamento e Instalação <a name="4.5"></a>
-
 Para licença de software escolhemos a GPL (GNU General Public Licence) - 3.0 .
 
+# Recursos do produto <a name="5"></a>
+
+## Cadastro/Login <a name="5.1"></a>
+O usuário poderá se cadastrar e fazer login na plataforma para ter acesso às funcionalidades do software.
+
+Essa funcionalidade também atenderá as necessidades de edição do conteúdo informado no momento do cadastro como: nome, email etc.
+
+## Criar Cartão <a name="5.2"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site, crie um cartão de credito ou alimentação/refeição. 
+
+Essa funcionalidade irá permitir edição do conteúdo como nome, label.
+
+## Adicionar Transações <a name="5.3"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site, adicione transações de entrada e saída seja no cartão, previamente criado, ou não e vincula-la a uma meta ou investimento previamente criado. 
+
+Essa funcionalidade irá permitir edição do conteúdo como nome, label, valor, recorrencia.
+
+## Criar Investimento <a name="5.4"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site, crie um investimento. 
+
+Essa funcionalidade irá permitir edição do conteúdo como nome, label, nome do investimento, investidora, prazo, rentabilidade, pré ou pós-fixado.
+
+## Criar Meta <a name="5.5"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site, crie uma meta. 
+
+Essa funcionalidade irá permitir edição do conteúdo como nome, label, prazo, valor a chegar, valor atual.
+
+## Criar Label <a name="5.6"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site, crie um label. 
+
+Essa funcionalidade irá permitir edição do conteúdo como nome e cor.
+
+## Criar compras <a name="5.7"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site, crie um ambiente de compras. 
+
+Essa funcionalidade irá permitir edição do conteúdo como local, valor maximo a ser gasto e de onde o dinheiro deve ser retirado do cartão, da meta ou do saldo.
+
+### Criar lista de compras <a name="5.7.1"></a>
+
+Essa funcionalidade permite que qualquer usuário, que previamente cadastrou-se no site e criou um ambiente de compras, crie um item de compras. 
+
+Essa funcionalidade irá permitir edição do conteúdo como nome, quantidade e valor.
 
 ## Referências <a name="7"></a>
 * Bolso, **Guia Bolso** [<https://www.guiabolso.com.br/>](https://www.guiabolso.com.br/). Acesso em 27 de maio de 2020.
