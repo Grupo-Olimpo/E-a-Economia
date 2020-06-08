@@ -18,6 +18,7 @@
         2. [MTV](#2.1.1)
     2. [Front-end](#2.2)
 3. [Metas e Restrições de Arquitetura](#3)
+3. [Visão de casos de uso](#4)
 
 13. [Referências](#13)
 
@@ -45,7 +46,7 @@ Este documento apresenta as características arquiteturais do projeto **E a Econ
 **E a Economia** - É uma aplicação movel, desenvolvido em Django REST e Angular, que te auxilia a controlar suas finanças e saber para onde seu dinheiro está indo. Monitorar seus gastos em poucos minutos com personalização completa.
 
 # Representação da arquitetura <a name="2"></a>
-![diagrama-arq](assets/diagrama-arq.png)
+![Diagrama de arquitetura](assets/diagrama-arq.png)
 
 ## Back-end <a name="2.1"></a>
 
@@ -53,7 +54,7 @@ O sistema faz uso do Framework Django (versão 2.2.2), que faz uso do padrão MV
 A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.
 
 ### MVC <a name="2.1.1"></a>
-![Figura 1](assets/mvc.png)
+![MVC](assets/mvc.png)
 
 Padrão arquitetural MVC.
 
@@ -63,7 +64,7 @@ Padrão arquitetural MVC.
 
 * **View:** camada de interface com o usuário, responsável pela representação dos dados;
 ### MTV <a name="2.1.1"></a>
-![Figura 2](assets/mvt.png) 
+![MVT](assets/mvt.png) 
 
 Padrão arquitetural MTV.
 
@@ -87,6 +88,8 @@ Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade e
 Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
 Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 
+# Visão de casos de uso<a name="4"></a>
+![Casos de uso](assets/caso_uso.png) 
 
 # Referências <a name="13"></a>
 
