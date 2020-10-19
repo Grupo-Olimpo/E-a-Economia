@@ -54,7 +54,7 @@ definido e esclarecido pelos mantenedores do projeto.
 ## Execução
 
 Instâncias de comportamento abusivo, assediador ou inaceitável podem ser
-relatado entrando em contato com a equipe do projeto em gabrielleribeiro2010@gmail.com Todas
+relatado entrando em contato com a equipe do projeto em giovannabbottino@gmail.com Todas
 reclamações serão analisadas e investigadas e resultarão em uma resposta que
 é considerado necessário e adequado às circunstâncias. A equipe do projeto é
 obrigado a manter a confidencialidade em relação ao relator de um incidente.
