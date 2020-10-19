@@ -11,7 +11,7 @@
 
 ## Contribuição
 
-Siga o [guia de contribuição](CONTRIBUTING.md) para entender os passos e regras para adicionar sua contribuição ao projeto.
+Siga o [guia de contribuição](https://github.com/giovannabbottino/E-a-Economia/blob/master/.github/CONTRIBUTING.md) para entender os passos e regras para adicionar sua contribuição ao projeto.
 
 ## Licença
 
