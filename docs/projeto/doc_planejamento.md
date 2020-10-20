@@ -43,7 +43,7 @@ A equipe é formada por 5 alunos da Universidade de Brasília:
 - Hugo Aragão de Oliveira - 16/0124581 - **Desenvolvedor**
 - Giovanna Borges Bottino - 170011267 - **Product Owner** e **Desenvolvedora**
 - João Gabriel de Campos de Matos - 180042238 - **Desenvolvedor**
-- Vinicius Porto - 150065515 - **Desenvolvedor**
+- Vinicius Porto - 150065515 - **Scrum Master** e **Desenvolvedor**
 - Luís Fernando Furtado de Araújo - 180042661 - **Desenvolvedor**
 
 
