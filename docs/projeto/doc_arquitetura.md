@@ -33,7 +33,7 @@ A arquitetura utilizada no projeto é a arquitetura Cliente/Servidor, que se bas
 
 No caso deste projeto, o papel de cliente será desempenhado pelo frontend da aplicação, que está sendo implementado em React, e o de servidor pela API, implementada em Node.js, que faz toda a comunicação com a camada de persistência dos dados.
 
-![Arquitetura](./images/architecture.png)
+![Arquitetura](../images/architecture.png)
 
 ## 3. Restrições
 
