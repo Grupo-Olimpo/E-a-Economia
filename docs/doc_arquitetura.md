@@ -1,8 +1,21 @@
 # Documento de Arquitetura
 
+## Historico de Versões
+
+| Data | Versão | Autor(a) | Descrição |
+| - | - | - | - |
+| 20/10/2020 | 0.1 | João Gabriel | Abertura do documento|
+| 20/10/2020 | 0.2 | João Gabriel | Adiciona Representação de Arquitetura,Restriçoes e Visão Lógica|
+
+# Indice
 - [1. Introdução](#_1-introdução)
   - [1.1. Objetivos](#_11-objetivos)
   - [1.2. Escopo do documento](#_12-escopo-do-documento)
+- [2. Representação da Arquitetura](#_2-representação-da-arquitetura)
+- [3. Restrições](#_3-restrições)
+- [4. Visão Lógica](#_4-visão-lógica)
+  - [4.1. Visão Geral: Pacotes e Camadas](#_41-visão-geral-pacotes-e-camadas)
+  - [4.2. Visão Geral: Classes](#_42-visão-geral-classes)
 
 ## 1. Introdução
 
@@ -45,10 +58,3 @@ O diagrama de classes a seguir tem como finalidade demonstrar todas classes, atr
 Segue o diagrama de classes:
 
 (POR FAZER)
-
-## Historico de Versões
-
-| Data | Versão | Autor(a) | Descrição |
-| - | - | - | - |
-| 20/10/2020 | 0.1 | João Gabriel | Abertura do documento|
-| 20/10/2020 | 0.2 | João Gabriel | Adiciona Representação de Arquitetura,Restriçoes e Visão Lógica|
