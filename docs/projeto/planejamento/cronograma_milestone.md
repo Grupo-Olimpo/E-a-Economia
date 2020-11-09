@@ -177,6 +177,6 @@ Logo nosso cronograma pode ser mapeado da seguinte forma:
 </p>
 <p>
 
-<img src="./milestone_chart.png" width="80%" alt="drawing">
+<img src="images/milestone_chart.png" width="80%" alt="drawing">
 
 </p>
