@@ -43,7 +43,8 @@
 
 ### Impacto
 
-| Impacto	| Impacto sobre o Custo Original (%)	| Peso |
+|Impacto	| Impacto sobre o Custo Original (%)	| Peso |
+|---|---|---|
 | Nulo	| 0%	| 0 |
 | Muito baixo	| 1 a 5% |	1 |
 | Baixo	| 5 a 10%	| 2 |
