@@ -6,6 +6,7 @@
       <li><a href="#/projeto/planejamento/tap">TAP</a></li>
        <li><a href="#/projeto/planejamento/planejamento">Planejamento</a></li>
        <li><a href="#/projeto/planejamento/roadmap">RoadMap do Projeto</a></li>
+       <li><a href="#/projeto/planejamento/roadmapPapeis">RoadMap de Papéis</a></li>
        <li><a href="#/projeto/planejamento/cronograma_milestone">Cronograma de milestone </a></li>
        </ul>
     </details>
