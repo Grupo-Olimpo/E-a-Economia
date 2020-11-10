@@ -8,7 +8,7 @@
 
 ## Introdução 
 
-Este documento traz o RoadMap do projeto E-conomia,
+Este documento traz o RoadMap do projeto E-conomia.
 
 ## RoadMap
 
