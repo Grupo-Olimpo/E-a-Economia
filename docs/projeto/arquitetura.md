@@ -7,7 +7,8 @@
 | 20/10/2020 | 0.1 | João Gabriel | Abertura do documento|
 | 20/10/2020 | 0.2 | João Gabriel | Adiciona Representação de Arquitetura,Restriçoes e Visão Lógica|
 
-# Indice
+## Indice
+
 - [1. Introdução](#_1-introdução)
   - [1.1. Objetivos](#_11-objetivos)
   - [1.2. Escopo do documento](#_12-escopo-do-documento)
@@ -48,8 +49,6 @@ A arquitetura Cliente/Servidor se baseia em dois módulos principais, que farão
 A figura a seguir mostra a estrutura de pacotes do sistema:
 
 (POR FAZER)
-
-
 
 ### 4.2. Visão Geral: Classes
 
