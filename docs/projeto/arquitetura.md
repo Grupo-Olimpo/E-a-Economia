@@ -14,9 +14,6 @@
   - [1.2. Escopo do documento](#_12-escopo-do-documento)
 - [2. Representação da Arquitetura](#_2-representação-da-arquitetura)
 - [3. Restrições](#_3-restrições)
-- [4. Visão Lógica](#_4-visão-lógica)
-  - [4.1. Visão Geral: Pacotes e Camadas](#_41-visão-geral-pacotes-e-camadas)
-  - [4.2. Visão Geral: Classes](#_42-visão-geral-classes)
 
 ## 1. Introdução
 
@@ -39,21 +36,3 @@ No caso deste projeto, o papel de cliente será desempenhado pelo frontend da ap
 ## 3. Restrições
 
 O sistema será desenvolvido para ser utilizado em web browsers Para alcançar tal finalidade, o backend do sistema, API que fará a comunicação com o banco de dados, será desenvolvido utilizando o Node.js com o framework Express e o frontend, que fará interface com o usuário final, pelo Cliente (em React).
-
-## 4. Visão Lógica
-
-### 4.1. Visão Geral: Pacotes e Camadas
-
-A arquitetura Cliente/Servidor se baseia em dois módulos principais, que farão a comunicação entre si para fornecer ao usuário os serviços necessários. No caso deste projeto, o cliente será a aplicação React e o servidor a API REST desenvolvida em Node.js, que utiliza o modelo MVC por padrão e possui módulos internos bem definidos (models, views, controllers, database, etc.). É válido ressaltar que como se trata de uma API REST, o servidor da aplicação não fará uso das views do modelo MVC utilizado pelo Node.
-
-A figura a seguir mostra a estrutura de pacotes do sistema:
-
-(POR FAZER)
-
-### 4.2. Visão Geral: Classes
-
-O diagrama de classes a seguir tem como finalidade demonstrar todas classes, atributos, métodos e tipo de restrição de acesso dos dados utilizados.
-
-Segue o diagrama de classes:
-
-(POR FAZER)
