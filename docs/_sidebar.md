@@ -9,6 +9,7 @@
        <li><a href="#/projeto/planejamento/roadmapPapeis">RoadMap de Papéis</a></li>
        <li><a href="#/projeto/planejamento/cronograma_milestone">Cronograma de milestone </a></li>
        <li><a href="#/projeto/planejamento/risco">Plano de risco</a></li>
+       <li><a href="#/projeto/planejamento/plano_gerenciamento_de_requisitos"> Plano de Gerenciamento de Requisitos </a><li>
        </ul>
     </details>
     <li><a href="#/projeto/arquitetura">Arquitetura</a></li>
