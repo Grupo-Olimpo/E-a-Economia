@@ -10,7 +10,7 @@ Pontuação total: 41 pontos planejados
 - Definir RoadMap de Produto - 3 pontos (Giovanna)
 - Definir plano de risco - 2 pontos (Giovanna)
 - Configurar GitPages - 3 pontos (Giovanna)
-- Plano de gerenciamento de requisitos - 5 pontos (Vinicius)
+- Plano de gerenciamento de requisitos - 5 pontos (João Gabriel)
 
 
 ## Dívidas Técnicas
