@@ -15,8 +15,8 @@ Pontuação total: 41 pontos planejados
 
 ## Dívidas Técnicas
 - Configurar ambiente de desenvolvimento - 5 pontos
-- Desenvolver Labels _US03_ _US04_ - 7 pontos
-- Desenvolver Transações _US05_ _US06_ _US07_ - 7 pontos
+- Desenvolver Labels _US06_ _US07_ - 7 pontos
+- Desenvolver Transações _US08_ _US09_ _US10_ - 7 pontos
 - Documentar Sprint 1 - 2 pontos
 - Configurar GitPages - 3 pontos
 - Documentar Sprint 2 - 2 pontos
