@@ -1,4 +1,4 @@
-# Documento de Visão
+# Documento de Planejamento
 
 ## Historico de versão
 
@@ -6,6 +6,7 @@
  ---- | ------ | --------- | -----
 20/10/20 | 1.0 | Abertura do documento | Giovanna
 09/11/20 | 1.1 | Refatoração do documento | Giovanna
+19/11/20 | 1.2 | Refatoração do documento | Hugo
 
 ## Introdução 
 
