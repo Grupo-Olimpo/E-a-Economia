@@ -10,8 +10,9 @@ Essa sprint terá como foco principal o desenvolvimento tecnico, termino do proj
 ## Sprint Backlog
 
 ### Dívidas
-- Desenvolver Login/Cadastro _US01_ _US02_ _US10_ - 5 pontos
-- Desenvolver FrontEnd _US08_ _US09_ _US11_  - 10 pontos
+- Desenvolver Cadastro _US01_ _US13_ - 2 pontos
+- Desenvolver Login _US02_ _US03_ _US04_ _US05_ - 3 pontos
+- Desenvolver FrontEnd _US11_ _US12_ _US14_ - 10 pontos
 
 ### Novas
 - Fazer deploy - 3 pontos

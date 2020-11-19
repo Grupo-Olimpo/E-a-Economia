@@ -14,12 +14,13 @@ Essa sprint terá como foco principal o desenvolvimento tecnico e configuração
 - Documentar Sprint 2 - 2 pontos
 - Documentar Sprint 3 - 2 pontos
 - Configurar ambiente de desenvolvimento - 5 pontos
-- Desenvolver Labels _US03_ _US04_ - 7 pontos
-- Desenvolver Transações _US05_ _US06_ _US07_ - 7 pontos
+- Desenvolver Labels _US06_ _US07_ - 7 pontos
+- Desenvolver Transações _US08_ _US09_ _US10_ - 7 pontos
 
 ### Novas
-- Desenvolver Login/Cadastro _US01_ _US02_ _US10_ - 5 pontos
-- Desenvolver FrontEnd _US08_ _US09_ _US11_ - 10 pontos
+- Desenvolver Cadastro _US01_ _US13_ - 2 pontos
+- Desenvolver Login _US02_ _US03_ _US04_ _US05_ - 3 pontos
+- Desenvolver FrontEnd _US11_ _US12_ _US14_ - 10 pontos
 
 ## Dívidas Técnicas
 As dívidas técnicas foram configurar GitPages, Documentar Sprint 1, Documentar Sprint 2, Documentar Sprint 3, Configurar ambiente de desenvolvimento, Desenvolver Labels e Desenvolver Transações.

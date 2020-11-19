@@ -20,8 +20,8 @@ Essa sprint terá como foco principal o desenvolvimento tecnico e definição do
 - Definir RoadMap de Papeis - 3 pontos
 - Definir RoadMap de Produto - 3 pontos
 - Definir plano de risco - 2 pontos
-- Desenvolver Labels _US03_ _US04_- 7 pontos 
-- Desenvolver Transações _US05_ _US06_ _US07_- 7 pontos
+- Desenvolver Labels _US06_ _US07_- 7 pontos 
+- Desenvolver Transações _US08_ _US09_ _US10_- 7 pontos
 - Documentar Sprint 3 - 2 pontos
 
 ## Dívidas Técnicas
