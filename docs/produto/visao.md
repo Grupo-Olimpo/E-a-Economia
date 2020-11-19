@@ -11,6 +11,7 @@
 28/05/19 | 1.4 | Criação dos Outros requisitos do produto | Giovanna
 02/11/20 | 2.0 | Refatora documento para a materia de Requisitos | Giovanna
 02/11    | 2.1 | Atualização dos requisitos do sistema| Hugo 
+19/11    | 2.2 | Atualização de pequenos erros | Giovanna 
 
 ## Índice
 
@@ -95,12 +96,12 @@ O usuário da aplicação deverá possuir um dispositivo com acesso a internet p
 * Utilizará o plataforma de desenvolvimento web REACTJS
 * Terá seu padrões de desenvolvimento em conformidade para ser uma PWA
 * Aplicação usará protocolo REST para comunicação com a API usando JSON
-* O sistema de banco de dados será o SQLite
+* O sistema de banco de dados será o Postgresql
 * A API deverá ser criada no framework NODEJS
 * A conteinerização do ambiente de homologação DOCKER
 * O padrão de projeto será Model-View-Template
-* Para conexões será usado o padrão  Singleton
-* A arquitetura utilizará o padrão de microserviços
+* Para conexões será usado o padrão Singleton
+* A arquitetura utilizará o padrão de cliente_servidor
 * Para sistema de autenticação será usado JWT
 
 ## Referências <a name="7"></a>
