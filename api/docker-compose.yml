@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  pgsql:
+    image: postgres:alpine
+    ports:
+      - '5432:5432'
+    container_name: 'econtainer'
+    restart: always
+
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: economia
+
+  adminer:
+    image: adminer
+    ports:
+      - '8080:8080'
+    restart: always 
+
+
+volumes:
+  pg-data:
