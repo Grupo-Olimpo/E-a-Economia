@@ -5,8 +5,13 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false
         },
         description: {
-            type: Sequelize.STRING
-        }
+            type: Sequelize.STRING,
+        },
+        color: {
+            type: Sequelize.STRING(7),
+            allowNull: false,
+            defaultValue: 'ffffff',
+        },
     });
 
     return Label;
