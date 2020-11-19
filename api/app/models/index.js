@@ -20,5 +20,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.tutorials = require("../models/tutorial.models")(sequelize, Sequelize);
+db.labels = require("../models/label.models")(sequelize, Sequelize);
 
 module.exports = db;
