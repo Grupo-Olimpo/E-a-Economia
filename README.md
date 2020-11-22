@@ -52,3 +52,14 @@ Siga o [guia de contribuição](https://github.com/giovannabbottino/E-a-Economia
 ## Licença
 
 GPLv3 © E-a-Economia. Acesse a [licença](LICENSE) para mais detalhes.
+
+## Node commands
+
+<!-- gerar migration -->
+<!-- npx sequelize-cli migration-generate --name nome_da_migration_aqui -->
+
+<!-- rodar migration para criar no banco de dados -->
+<!-- npx sequelize-cli db:migrate -->
+
+<!-- desfazer -->
+<!-- npx sequelize-cli db:migrate:undo -->
