@@ -25,10 +25,12 @@ routes.post('/',
       console.log('entrei post user');
       console.log(req.body);
 
-      response = UserEntity.create(req.body);
+      response = await UserEntity.create(req.body);
 
     } catch (err) {
       // handle error
+      console.log(err)
+      console.log(AAAAAAA)
     }
     return res.status(httpStatus.OK).json(response);
   });
