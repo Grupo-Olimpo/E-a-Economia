@@ -7,9 +7,9 @@ Pontuação total: 42 pontos planejados
 ## Entregues
 
 - Documentar Sprint 1 - 2 pontos (Giovanna)
-- Documentar Sprint 2 - 2 pontos (Giovanna)
-- Documentar Sprint 3 - 2 pontos (Giovanna)
-- Documentar Sprint 4 - 2 pontos (Giovanna)
+- Documentar Sprint 2 - 2 pontos (Giovanna, Hugo)
+- Documentar Sprint 3 - 2 pontos (Giovanna, Hugo)
+- Documentar Sprint 4 - 2 pontos (Giovanna, Hugo)
 - Configurar ambiente de desenvolvimento - 5 pontos (Hugo)
 - Desenvolver Labels _US06_ _US07_ - 7 pontos (Giovanna e Hugo)
 

@@ -8,10 +8,10 @@ Pontuação total: 42 pontos planejados
 
 - Documentar Sprint 5 - 2 pontos (Giovanna)
 - Desenvolver Cadastro _US01_ _US13_ - 2 pontos (Luis, Hugo, João)
+- Desenvolver Login _US02_ _US03_ _US04_ _US05_ - 3 pontos (Luis, Hugo, João)
 
 ## Dívidas Técnicas
 - Desenvolver Cadastro _US01_ _US13_ - 2 pontos
-- Desenvolver Login _US02_ _US03_ _US04_ _US05_ - 3 pontos
 - Desenvolver FrontEnd _US11_ _US12_ _US14_ - 10 pontos
 - Desenvolver Transações _US08_ _US09_ _US10_ - 7 pontos
 - Fazer deploy - 3 pontos
@@ -34,3 +34,4 @@ Pontuação total: 42 pontos planejados
 ### Sugestão de melhoria
 - Equipe se dedicar mais para o projeto
 - Diminuição da pontuação
+- Melhora na comunicação interna da equipe
