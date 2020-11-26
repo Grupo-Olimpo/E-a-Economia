@@ -5,8 +5,9 @@ Data de término: 26/11/2020
 Duração: 6 dias
 
 ## Objetivo da Sprint
-Essa sprint terá como foco principal o desenvolvimento tecnico, termino do projeto e deploy.
-
+Essa sprint terá como foco principal o desenvolvimento tecnico,
+termino do projeto e deploy. Assim como avaliar a necessidade
+de uma nova sprint.
 ## Sprint Backlog
 
 ### Dívidas
