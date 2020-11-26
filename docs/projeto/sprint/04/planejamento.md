@@ -18,6 +18,7 @@ Essa sprint terá como foco principal o desenvolvimento tecnico e configuração
 - Desenvolver Transações _US08_ _US09_ _US10_ - 7 pontos
 
 ### Novas
+- Documentar Sprint 4 - 2 pontos 
 - Desenvolver Cadastro _US01_ _US13_ - 2 pontos
 - Desenvolver Login _US02_ _US03_ _US04_ _US05_ - 3 pontos
 - Desenvolver FrontEnd _US11_ _US12_ _US14_ - 10 pontos
@@ -26,6 +27,6 @@ Essa sprint terá como foco principal o desenvolvimento tecnico e configuração
 As dívidas técnicas foram configurar GitPages, Documentar Sprint 1, Documentar Sprint 2, Documentar Sprint 3, Configurar ambiente de desenvolvimento, Desenvolver Labels e Desenvolver Transações.
 
 ## Pontuação da Sprint
-Backlog: 15 pontos
+Backlog: 17 pontos
 Dívidas técnicas: 25 pontos
-Pontuação total: 40 pontos planejados
+Pontuação total: 42 pontos planejados
