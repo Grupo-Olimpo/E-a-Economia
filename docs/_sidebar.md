@@ -38,6 +38,19 @@
   <li><details><summary><a style="display: inline;">04</summary></a>
       <ul>
       <li><a href="#/projeto/sprint/04/planejamento">Planejamento</a></li>
+      <li><a href="#/projeto/sprint/04/resultado">Resultado</a></li>
+      </ul>
+  </details>
+  <li><details><summary><a style="display: inline;">05</summary></a>
+      <ul>
+      <li><a href="#/projeto/sprint/05/planejamento">Planejamento</a></li>
+      <li><a href="#/projeto/sprint/05/resultado">Resultado</a></li>
+      </ul>
+  </details>
+  <li><details><summary><a style="display: inline;">06</summary></a>
+      <ul>
+      <li><a href="#/projeto/sprint/06/planejamento">Planejamento</a></li>
+      <li><a href="#/projeto/sprint/06/resultado">Resultado</a></li>
       </ul>
   </details>
   </ul>
