@@ -167,21 +167,21 @@ Análise do problema:
             <td>US06</td>
             <td>Poder alterar as transações</td>
             <td>Poder visualizar mellhor meus gastos</td>
-            <td>Alta</td>
+            <td>Media</td>
             <td>RF04</td>
         </tr>
         <tr>
             <td>US07</td>
             <td>Poder deletar transações ja cadastradas</td>
             <td>caso ocorrar erros ou não deseje considerar aquela transação</td>
-            <td>Alta</td>
+            <td>Media</td>
             <td>RF04</td>
         </tr>
         <tr>
             <td>US08</td>
             <td>Poder ao abirir a aplicação, saber qual meu total de gastos</td>
             <td>poder organizar meus gastos futuros</td>
-            <td>Alta</td>
+            <td>Baixa</td>
             <td>RF05</td>
         </tr>
         <tr>
@@ -195,7 +195,7 @@ Análise do problema:
             <td>US10</td>
             <td>que meus dados fiquem salvos na aplicação</td>
             <td>não ser necessario adicionar tudo sempre quer for usa-la</td>
-            <td>Alta</td>
+            <td>Baixa</td>
             <td>RF07</td>
         </tr>
     </tbody>
