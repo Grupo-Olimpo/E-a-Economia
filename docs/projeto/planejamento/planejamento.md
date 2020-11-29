@@ -7,6 +7,7 @@
 20/10/20 | 1.0 | Abertura do documento | Giovanna
 09/11/20 | 1.1 | Refatoração do documento | Giovanna
 19/11/20 | 1.2 | Refatoração do documento | Hugo
+28/11/20 | 2.0 | Refatoração do documento | Hugo
 
 ## Introdução 
 
@@ -91,38 +92,20 @@ Análise do problema:
         </tr>
         <tr>
             <td>RF03</td>
-            <td>EP02</td>
-            <td>CRUD de Label</td>
-            <td>Funcional</td>
-        </tr>
-        <tr>
-            <td>RF04</td>
             <td>EP01</td>
             <td>CRUD de Transações de entrada e saída</td>
             <td>Funcional</td>
         </tr>
         <tr>
-            <td>RF05</td>
+            <td>RF04</td>
             <td>EP02</td>
             <td>Fazer o calculo do gasto total</td>
             <td>Funcional</td>
         </tr>
         <tr>
-            <td>RF06</td>
+            <td>RF05</td>
             <td>EP02</td>
-            <td>Mostrar o gráfico dos gastos ao longo do tempo</td>
-            <td>Funcional</td>
-        </tr>
-        <tr>
-            <td>RF07</td>
-            <td>EP02</td>
-            <td>Armazenar os dados dos gastos</td>
-            <td>Funcional</td>
-        </tr>
-        <tr>
-            <td>RF08</td>
-            <td>EP02</td>
-            <td>Mostrar o label que gera mais despeza</td>
+            <td>Mostrar a tabela dos gastos ao longo do tempo</td>
             <td>Funcional</td>
         </tr>
         <tr>
@@ -130,12 +113,6 @@ Análise do problema:
             <td> _____</td>
             <td>A arquitetura utilizará o padrão de cliente-servidor</td>
             <td>Não Funcional (Implementação)</td>
-        </tr>
-        <tr>
-            <td>NF02</td>
-            <td>_____</td>
-            <td>Layouts responsivos para portabilidade em qualquer dispositivo</td>
-            <td>Não funcional</td>
         </tr>
     </tbody>
 </table>
@@ -168,86 +145,58 @@ Análise do problema:
         <tr>
             <td>US03</td>
             <td> fazer login </td>
-            <td>acessar minhas labels</td>
+            <td>Acessar minhas transações</td>
             <td>Alta</td>
             <td>RF02</td>
         </tr>
         <tr>
             <td>US04</td>
             <td> fazer login </td>
-            <td>Acessar minhas labels</td>
-            <td>Alta</td>
-            <td>RF02</td>
-        </tr>
-        <tr>
-            <td>US05</td>
-            <td> fazer login </td>
             <td>Acessar minha conta</td>
             <td>Alta</td>
             <td>RF02</td>
         </tr>
         <tr>
-            <td>US06</td>
-            <td>Poder criar labels para as transações </td>
+            <td>US05</td>
+            <td>Poder criar transaçoes</td>
             <td>Poder visualizar mellhor meus gastos</td>
             <td>Alta</td>
-            <td>RF03</td>
+            <td>RF04</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Poder alterar as transações</td>
+            <td>Poder visualizar mellhor meus gastos</td>
+            <td>Alta</td>
+            <td>RF04</td>
         </tr>
         <tr>
             <td>US07</td>
-            <td>Poder editar labels para as transações </td>
-            <td>Poder visualizar mellhor meus gastos</td>
-            <td>Alta</td>
-            <td>RF03</td>
-        </tr>
-        <tr>
-            <td>US08</td>
-            <td>Poder criar transaçoes com as labels que criei</td>
-            <td>Poder visualizar mellhor meus gastos</td>
-            <td>Alta</td>
-            <td>RF04</td>
-        </tr>
-        <tr>
-            <td>US09</td>
-            <td>Poder alterar as labels das transações</td>
-            <td>Poder visualizar mellhor meus gastos</td>
-            <td>Alta</td>
-            <td>RF04</td>
-        </tr>
-        <tr>
-            <td>US10</td>
             <td>Poder deletar transações ja cadastradas</td>
             <td>caso ocorrar erros ou não deseje considerar aquela transação</td>
             <td>Alta</td>
             <td>RF04</td>
         </tr>
         <tr>
-            <td>US11</td>
+            <td>US08</td>
             <td>Poder ao abirir a aplicação, saber qual meu total de gastos</td>
             <td>poder organizar meus gastos futuros</td>
             <td>Alta</td>
             <td>RF05</td>
         </tr>
         <tr>
-            <td>US12</td>
-            <td>Poder, na aplicação, ver um grafico com meus gastos no decorrer no tempo</td>
+            <td>US09</td>
+            <td>Poder, na aplicação, ver uma tabela com meus gastos no decorrer no tempo</td>
             <td>poder organizar meus gastos futuros</td>
             <td>Baixa</td>
             <td>RF06</td>
         </tr>
         <tr>
-            <td>US13</td>
+            <td>US10</td>
             <td>que meus dados fiquem salvos na aplicação</td>
             <td>não ser necessario adicionar tudo sempre quer for usa-la</td>
             <td>Alta</td>
             <td>RF07</td>
-        </tr>
-        <tr>
-            <td>US14</td>
-            <td>que a aplicação me permita ver as labels por ordem de quantidade de gastos</td>
-            <td>poder organizar meus gastos futuros</td>
-            <td>Media</td>
-            <td>RF08</td>
         </tr>
     </tbody>
 </table>
@@ -307,10 +256,10 @@ Esta sessão lista todos os papéis existentes dentro do Time Scrum desse projet
 
 A equipe é formada por 5 alunos da Universidade de Brasília:
 
-- Hugo Aragão de Oliveira - 16/0124581 - **Desenvolvedor**
+- Hugo Aragão de Oliveira - 16/0124581 - **Desenvolvedor** e  **Scrum Master**
 - Giovanna Borges Bottino - 170011267 - **Product Owner** e **Desenvolvedora**
 - João Gabriel de Campos de Matos - 180042238 - **Desenvolvedor**
-- Vinicius Porto - 150065515 - **Scrum Master** e **Desenvolvedor**
+- Vinicius Porto - 150065515 - **Desenvolvedor**
 - Luís Fernando Furtado de Araújo - 180042661 - **Desenvolvedor**
 
 
@@ -347,4 +296,4 @@ este passo é repetido até que haja consenso de todos os presentes sobre quanto
 - O que foi feito pelo membro no dia anterior para ajudar a desenvolver na Sprint?
 - O que será feito pelo membro no dia atual para ajudar no desenvolvimento na Sprint?
 - Houve algum empedimento para o membro que impossibilitou ele ajudar o restante da equipe na Sprint? (gerenciamento de riscos)
-- Dailys online: todos os dias começando às 22:00.
+- Reuniões feitas no horário da aula, quando disponível e aos finais de semana.
