@@ -3,7 +3,8 @@ module.exports = (sequelize, Sequelize) => {
         userId:{type: Sequelize.BIGINT, field: 'userId'},
         name: { type: Sequelize.STRING, field: 'str_name' },
         description: { type: Sequelize.STRING, field: 'str_description' },
-        date: { type: Sequelize.STRING, field: 'str_date' }
+        date: { type: Sequelize.STRING, field: 'str_date' },
+        amount: { type: Sequelize.FLOAT, field: 'amount'}
     }, {
         tableName: 'tb_transaction',
         freezeTableName: true,

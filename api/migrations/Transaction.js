@@ -17,6 +17,11 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
+      amount: {
+        type: Sequelize.FLOAT,
+        allowNull: false
+
+      },
       str_description: { type: Sequelize.STRING },
       str_date: { type: Sequelize.STRING },
 
