@@ -4,6 +4,7 @@ import { user as UserEntity } from '../../models/index';
 import transaction from '../../models/index';
 
 const routes = express.Router();
+
 routes.post('/',
     async (req, res) => {
         let response = null;
@@ -11,7 +12,7 @@ routes.post('/',
             // logics
             const check = await UserEntity.findOne({ where: { id: req.body.userId } })
             if (check) {
-                response = await transactions.create(req.body)
+                response = await transaction.create(req.body);
                 return res.status(httpStatus.OK).json(response);
             } else {
                 return res.status(401).json({message:'Login e tente novamente'})
