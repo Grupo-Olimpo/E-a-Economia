@@ -29,8 +29,9 @@ routes.post('/',
 
         } catch (err) {
             // handle error
+            onsole.log("###############################################")
             console.log(err)
-            console.log(AAAAAAA)
+            console.log("###############################################")
         }
         return res.status(httpStatus.OK).json(response);
     });
