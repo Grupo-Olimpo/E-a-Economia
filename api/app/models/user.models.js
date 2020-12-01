@@ -12,6 +12,7 @@ module.exports = (sequelize, Sequelize) => {
     updatedAt: 'dt_updated_at',
     deletedAt: 'dt_deleted_at',
   });
+  
 
   return User;
 }

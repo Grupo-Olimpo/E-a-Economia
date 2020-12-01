@@ -4,14 +4,19 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('tb_transaction', {
 
-      id:{  type: Sequelize.BIGINT,
-            allowNull: false,
-            autoIncrement: true,
-          },
-
-      str_name: { type: Sequelize.STRING,
-                  allowNull: false
-                },
+      id: {
+        type: Sequelize.BIGINT,
+        allowNull: false,
+        autoIncrement: true,
+      },
+      userId: {
+        type: Sequelize.BIGINT,
+        allowNull: false,
+      },
+      str_name: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
       str_description: { type: Sequelize.STRING },
       str_date: { type: Sequelize.STRING },
 
@@ -21,9 +26,9 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-  
+
     await queryInterface.dropTable('tb_transaction');
 
-    
+
   }
 };
