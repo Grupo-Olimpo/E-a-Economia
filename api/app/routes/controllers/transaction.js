@@ -31,11 +31,15 @@ routes.post('/',
     });
 
 routes.get('/',
-    async (req, res) => {
-        let response = null
+    async (req, res) => { //Devolve lista de transaçoes pelo id do usuario (userId).
         try {
             const list = await Transaction.findAll({ where: { userId: req.body.userId } });
-            console.log(list)
+
+            if (list.length > 0) {
+                return res.status(httpStatus.OK).json(list)
+            } else {
+                return res.status(404).json({ message: "Usuario não encontrado" })
+            }
         } catch (err) {
             //handle error
             console.log("###############################################")
@@ -44,6 +48,13 @@ routes.get('/',
 
         }
     })
+routes.put('/',
+    async (req, res) => {
+        try {
 
+        } catch (err) {
+
+        }
+    })
 
 export default routes;
