@@ -4,34 +4,37 @@ import { user as UserEntity } from '../../models/index';
 
 const routes = express.Router();
 
-routes.post('/', 
-  async (req, res) => {
-    let response = null;
-    try {
-      // logics
-      console.log('entrei login');
-      console.log(req.body);
+routes.get('/',
+    async (req, res) => {
+        let response = null;
+        try {
+            // logics
+            console.log('entrei login');
+            console.log(req.body);
 
-      const {email, password} = req.body;
-      console.log('email', email);
-      console.log('senha', password);
+            const { email, password } = req.body;
+            console.log('email', email);
+            console.log('senha', password);
 
 
-    const response = await UserEntity.findOne({  where: { email: email, password: password } });
-    
-    if (response) {
-        return res.status(400).json({ mensage: 'login efetuado!' })
-    } else {
-        return res.status(401).json({ mensage: 'Não autorizado!' })
-    }
+            const response = await UserEntity.findOne({ where: { email: email, password: password } });
 
-    } catch (err) {
-      // handle error
-      console.log(err)
-      console.log(AAAAAAA)
-    }
-    return res.status(httpStatus.OK).json(response);
-  });
+            if (response) {
+                return res.status(400).json({
+                    "id": response.id,
+                    "name": response.name
+                })
+            } else {
+                return res.status(401).json({ mensage: 'Não autorizado!' })
+            }
+
+        } catch (err) {
+            // handle error
+            console.log(err)
+            console.log(AAAAAAA)
+        }
+        return res.status(httpStatus.OK).json(response);
+    });
 
 
 

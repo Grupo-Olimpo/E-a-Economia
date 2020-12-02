@@ -4,36 +4,43 @@ import { user as UserEntity } from '../../models/index';
 
 const routes = express.Router();
 
-routes.get('/', 
-  async (req, res) => {
-    let response = null;
-    try {
-      // logics
-      console.log('entrei get user');
+routes.get('/',
+    async (req, res) => {
+        let response = null;
+        try {
+            // logics
+            console.log('entrei get user');
 
-    } catch (err) {
-      //handle error
-    }
-    return res.status(httpStatus.OK).json(response);
-  });
+        } catch (err) {
+            //handle error
+        }
+        return res.status(httpStatus.OK).json(response);
+    });
 
-routes.post('/', 
-  async (req, res) => {
-    let response = null;
-    try {
-      // logics
-      console.log('entrei post user');
-      console.log(req.body);
+routes.post('/',
+    async (req, res) => {
+        let response = null;
+        try {
+            // logics
+            console.log('entrei post user');
+            console.log(req.body);
 
-      response = await UserEntity.create(req.body);
+            const check = await UserEntity.findOne({ where: { email: req.body.email } })
+            if (!check) {
+                response = await UserEntity.create(req.body);
+            } else {
+                return res.status(401).json({ mensage: 'Email ja cadastrado.' });
+            }
 
-    } catch (err) {
-      // handle error
-      console.log(err)
-      console.log(AAAAAAA)
-    }
-    return res.status(httpStatus.OK).json(response);
-  });
+            // response = await UserEntity.create(req.body);
+
+        } catch (err) {
+            // handle error
+            console.log(err)
+
+        }
+        return res.status(httpStatus.OK).json(response);
+    });
 
 
 
