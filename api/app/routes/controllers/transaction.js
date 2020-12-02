@@ -51,9 +51,24 @@ routes.get('/',
 routes.put('/',
     async (req, res) => {
         try {
+            var transaction = await Transaction.findOne({ where: { id: req.body.id } })
+            if (transaction) {
+
+                transaction = await transaction.update({
+                    name: req.body.name,
+                    description: req.body.description,
+                    date: req.body.date,
+                    amount: req.body.amount
+                })
+                return res.status(httpStatus.OK).json(transaction)
+            } else {
+                return res.status(404).json({ message: "Transação não encontrada" })
+            }
 
         } catch (err) {
-
+            console.log("###############################################")
+            console.log(err)
+            console.log("###############################################")
         }
     })
 
