@@ -6,7 +6,7 @@ import { transaction as Transaction } from '../../models/index';
 
 const routes = express.Router();
 
-routes.post('/',
+routes.post('/', //Cria transações
     async (req, res) => {
         let response = null;
         try {
@@ -30,8 +30,8 @@ routes.post('/',
 
     });
 
-routes.get('/',
-    async (req, res) => { //Devolve lista de transaçoes pelo id do usuario (userId).
+routes.get('/', //Retorna lista de transações pelo id do usuario (userId).
+    async (req, res) => { 
         try {
             const list = await Transaction.findAll({ where: { userId: req.body.userId } });
 
@@ -48,7 +48,7 @@ routes.get('/',
 
         }
     })
-routes.put('/',
+routes.put('/', //Atualiza transação
     async (req, res) => {
         try {
             var transaction = await Transaction.findOne({ where: { id: req.body.id } })
