@@ -21,7 +21,7 @@ routes.post('/',
 
             if (response) {
                 return res.status(200).json({
-                    "id": response.id,
+                    "userId": response.id,
                     "name": response.name
                 })
             } else {
