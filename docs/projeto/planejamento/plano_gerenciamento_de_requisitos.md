@@ -56,7 +56,7 @@ Primeiramente ocorrerá a elaboração de matriz de rastreabilidade conforme aba
 ![Matriz de rastreabilidade](../../images/matriz_rastreabilidade.png)
 
 Obs: os IDs serão o codigo mais um numero que representa a ordem de definição de cada parte (ex: primeiro Epico será EP01, o segundo será EP02, a primeira Historia de Usuario será US01, a segunda será US02, e assim em diante).
-Obs2: As matrizes de rastreabilidade se encontram no Documento de visão.
+Obs2: As matrizes de rastreabilidade se encontram no Documento de Planejamento.
 
 ### 2.2 Priorização de requisitos
 
