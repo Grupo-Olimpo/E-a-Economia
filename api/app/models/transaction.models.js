@@ -1,10 +1,29 @@
 module.exports = (sequelize, Sequelize) => {
     const Transaction = sequelize.define("Transaction", {
-        userId: { type: Sequelize.BIGINT, field: 'userId' },
-        name: { type: Sequelize.STRING, field: 'str_name' },
-        description: { type: Sequelize.STRING, field: 'str_description' },
-        date: { type: Sequelize.STRING, field: 'str_date' },
-        amount: { type: Sequelize.FLOAT, field: 'amount' }
+        userId: {
+            type: Sequelize.BIGINT,
+            field: 'userId',
+        },
+        name: {
+            type: Sequelize.STRING,
+            field: 'str_name',
+            defaultValue: 'Gasto'
+        },
+        description: {
+            type: Sequelize.STRING,
+            field: 'str_description',
+            defaultValue: ''
+        },
+        date: {
+            type: Sequelize.STRING,
+            field: 'str_date',
+            defaultValue: '01/01/2000'
+        },
+        amount: {
+            type: Sequelize.FLOAT,
+            field: 'amount',
+            defaultValue: 0
+        }
     }, {
         tableName: 'tb_transaction',
         freezeTableName: true,
