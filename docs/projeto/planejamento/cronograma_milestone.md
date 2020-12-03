@@ -138,7 +138,7 @@
    </td>
    <td>EP01
    </td>
-   <td>A arquitetura utilizará o padrão de microserviços
+   <td>A arquitetura utilizará o padrão de Clente-Servidor
    </td>
    <td>Não Funcional (Implementação)
    </td>
