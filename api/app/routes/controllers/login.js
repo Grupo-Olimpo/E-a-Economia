@@ -4,7 +4,7 @@ import { user as UserEntity } from '../../models/index';
 
 const routes = express.Router();
 
-routes.get('/',
+routes.post('/',
     async (req, res) => {
         let response = null;
         try {
@@ -20,7 +20,7 @@ routes.get('/',
             const response = await UserEntity.findOne({ where: { email: email, password: password } });
 
             if (response) {
-                return res.status(400).json({
+                return res.status(200).json({
                     "id": response.id,
                     "name": response.name
                 })
