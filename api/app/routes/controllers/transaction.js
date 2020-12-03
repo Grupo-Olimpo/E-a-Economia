@@ -31,7 +31,7 @@ routes.post('/', //Cria transações
     });
 
 routes.get('/', //Retorna lista de transações pelo id do usuario (userId).
-    async (req, res) => { 
+    async (req, res) => {
         try {
             const list = await Transaction.findAll({ where: { userId: req.body.userId } });
 
@@ -47,7 +47,7 @@ routes.get('/', //Retorna lista de transações pelo id do usuario (userId).
             console.log("###############################################")
 
         }
-    })
+    });
 routes.put('/', //Atualiza transação
     async (req, res) => {
         try {
@@ -70,6 +70,26 @@ routes.put('/', //Atualiza transação
             console.log(err)
             console.log("###############################################")
         }
+    });
+routes.delete('/',
+    async (req, res) => { // Deleta uma transação por id.
+        try {
+            let transaction = await Transaction.findOne({ where: { id: req.body.id } });
+            if (transaction) {
+
+                Transaction.destroy({ where: { id: req.body.id } })
+
+                return res.status(httpStatus.OK).json({ message: "Transação excluida com sucesso" });
+            } else {
+                return res.status(404).json({ message: "Transação não encontrada" })
+            }
+
+        } catch (err) {
+            console.log("###############################################")
+            console.log(err)
+            console.log("###############################################")
+        }
+
     })
 
 export default routes;
