@@ -25,13 +25,19 @@ routes.post('/',
             console.log('entrei post user');
             console.log(req.body);
 
-            response = await UserEntity.create(req.body);
+            const check = await UserEntity.findOne({ where: { email: req.body.email } })
+            if (!check) {
+                response = await UserEntity.create(req.body);
+            } else {
+                return res.status(401).json({ mensage: 'Email ja cadastrado.' });
+            }
+
+            // response = await UserEntity.create(req.body);
 
         } catch (err) {
             // handle error
-            onsole.log("###############################################")
             console.log(err)
-            console.log("###############################################")
+
         }
         return res.status(httpStatus.OK).json(response);
     });
