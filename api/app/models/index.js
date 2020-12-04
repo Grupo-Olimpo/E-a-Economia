@@ -20,7 +20,7 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.user = require("../models/user.models")(sequelize, Sequelize);
-db.tutorials = require("../models/tutorial.models")(sequelize, Sequelize);
-db.labels = require("../models/label.models")(sequelize, Sequelize);
+//db.tutorials = require("../models/tutorial.models")(sequelize, Sequelize);
+db.transaction = require("../models/transaction.models")(sequelize, Sequelize);
 
 module.exports = db;
