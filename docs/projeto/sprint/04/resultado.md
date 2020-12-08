@@ -10,7 +10,7 @@ Pontuação total: 42 pontos planejados
 - Documentar Sprint 2 - 2 pontos (Giovanna, Hugo)
 - Documentar Sprint 3 - 2 pontos (Giovanna, Hugo)
 - Documentar Sprint 4 - 2 pontos (Giovanna, Hugo)
-- Configurar ambiente de desenvolvimento - 5 pontos (Hugo)
+- Configurar ambiente de desenvolvimento - 5 pontos (Hugo, Luís)
 - Desenvolver Labels _US06_ _US07_ - 7 pontos (Giovanna e Hugo)
 
 ## Dívidas Técnicas

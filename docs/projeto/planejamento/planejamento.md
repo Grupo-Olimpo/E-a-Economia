@@ -254,12 +254,11 @@ Esta sessão lista todos os papéis existentes dentro do Time Scrum desse projet
 
 ## Equipe
 
-A equipe é formada por 5 alunos da Universidade de Brasília:
+A equipe é formada por 4 alunos da Universidade de Brasília:
 
 - Hugo Aragão de Oliveira - 16/0124581 - **Desenvolvedor** e  **Scrum Master**
 - Giovanna Borges Bottino - 170011267 - **Product Owner** e **Desenvolvedora**
 - João Gabriel de Campos de Matos - 180042238 - **Desenvolvedor**
-- Vinicius Porto - 150065515 - **Desenvolvedor**
 - Luís Fernando Furtado de Araújo - 180042661 - **Desenvolvedor**
 
 
