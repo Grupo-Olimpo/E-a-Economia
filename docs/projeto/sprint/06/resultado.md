@@ -1,4 +1,4 @@
-# Resultado Sprint 5
+# Resultado Sprint 6
 
 ## Pontuação da Sprint
 Backlog: 17 pontos
